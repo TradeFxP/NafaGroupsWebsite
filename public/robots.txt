@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private sections
+Disallow: /admin/
+Disallow: /private/
+
+# Allow search engines to crawl all pages
+Allow: /about
+Allow: /services
+Allow: /blog
+Allow: /support
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://nafagroups.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
